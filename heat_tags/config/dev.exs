@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :heat_tags, HeatTags.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "",
   database: "heat_tags_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
